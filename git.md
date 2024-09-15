@@ -41,5 +41,6 @@
 
 ## Help
 - `git help <command>`: Get help for a specific Git command
+-  [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 Remember: Be careful with commands that discard changes (for example; `reset --hard`). If in doubt, make a backup or see if a safer alternative is available.
