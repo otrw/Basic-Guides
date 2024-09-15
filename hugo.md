@@ -9,7 +9,7 @@
 ## Theme Management
 - `git clone <theme-repo> themes/<theme-name>`
 - `git submodule add <theme-repo> themes/<theme-name>`
-- Update `config.toml` to use the theme: `theme = "<theme-name>"`
+- Update `hugo.toml` to use the theme: `theme = "<theme-name>"`
 
 ## Content Creation
 - `hugo new <section>/<file-name>.md`: Create a new content file
@@ -26,15 +26,15 @@
 ## Content Management
 - Front matter: Add metadata at the top of content files
   ```yaml
-  ---
+  +++
   title: "My First Post"
   date: 2023-01-01T10:00:00-05:00
   draft: true
-  ---
+  +++
   ```
 
 ## Customization
-- Edit `config.toml` for site-wide settings
+- Edit `hugo.toml` for site-wide settings
 - Create/edit layouts in `layouts/` directory
 - Add static content (images, CSS, JS) to `static/` directory
 - Templates for Posts stored in the `archetypes/` directory
