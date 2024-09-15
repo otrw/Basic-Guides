@@ -42,4 +42,4 @@
 ## Help
 - `git help <command>`: Get help for a specific Git command
 
-Remember: Always be careful with commands that can discard changes (like `reset --hard`). When in doubt, make a backup or use safer alternatives.
+Remember: Be careful with commands that discard changes (for example; `reset --hard`). If in doubt, make a backup or see if a safer alternative is available.
