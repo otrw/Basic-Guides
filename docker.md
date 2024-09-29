@@ -61,7 +61,8 @@ docker info
 
 ### Notes:
 - When using `docker run`, it will pull the image if it doesn't exist locally.
-- The `-d` flag detaches the container, running it in the background.
+- The `-d` or `--detach` flag detaches the container, running it in the background.
+    - NOTE: A running process will be required on the machine so docker keeps the process alive. For example: `docker run -d <image> tail -f /dev/null`.  In most real-world scenarios, the container would run an actual application or service.
 - Port mapping is done with `-p host_port:container_port`.
 - Use `--name` to specify a custom name for a container.
 - The `-f` flag with `docker rm` forces removal of a running container.

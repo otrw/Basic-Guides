@@ -20,7 +20,7 @@
 - `hugo server -D`: Include draft content in development server
 
 ## Building Your Site
-- `hugo`: Build your site (output to `public/` directory)
+- `hugo`: Build site (output to `public/` directory)
 - `hugo --minify`: Build and minify your site
 
 ## Content Management

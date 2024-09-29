@@ -1,10 +1,10 @@
 1. Prepare your Hugo site:
 	- Ensure your Hugo site is ready and working locally.
-	- Commit all your changes to your Git repository.
-	- Push your Hugo project to a GitHub repository if you haven't already.
+	- Commit all changes to the Git repository.
+	- Push your Hugo project to a GitHub repository.
 
 2. Sign in to Cloudflare:
-	- Create a Cloudflare account if you don't have one.
+	- Create a Cloudflare account if you don't have one and sign in.
 
 3. Set up Cloudflare Pages:
 	- Log in to your Cloudflare dashboard.

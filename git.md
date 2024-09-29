@@ -44,4 +44,10 @@
 -  [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 -  [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
+<<<<<<< HEAD
 Remember: Be careful with commands that discard changes (for example; `reset --hard`). If in doubt, make a backup or see if a safer alternative is available.
+=======
+#### Notes: 
+- Be careful with commands that can discard changes (like `reset --hard`). 
+- When in doubt, make a backup or use safer alternatives.
+>>>>>>> 8d028e3 (minors updates to grammar & spelling)
